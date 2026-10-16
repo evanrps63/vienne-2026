@@ -1,0 +1,119 @@
+{
+  "sections": [
+    {
+      "id": "manger",
+      "titre": "À manger",
+      "intro": "La cuisine viennoise est une cuisine d'empire : elle a emprunté à la Bohême, à la Hongrie et à l'Italie.",
+      "items": [
+        {
+          "nom": "Wiener Schnitzel",
+          "texte": "Une escalope de veau battue très fine, panée et dorée au beurre clarifié, servie avec du citron et une salade de pommes de terre. S'il est fait avec du porc, la carte doit l'appeler « Schnitzel Wiener Art ».",
+          "photo": "images/plat-schnitzel.jpg"
+        },
+        {
+          "nom": "Tafelspitz",
+          "texte": "Le pot-au-feu de l'empereur François-Joseph. On boit d'abord le bouillon, puis on mange le bœuf fondant avec du raifort aux pommes (Apfelkren) et une sauce à la ciboulette.",
+          "photo": "images/plat-tafelspitz.jpg"
+        },
+        {
+          "nom": "Sachertorte",
+          "texte": "Un gâteau au chocolat avec une fine couche de confiture d'abricot, créé en 1832. Il se mange avec de la crème fouettée non sucrée (Schlagobers).",
+          "photo": "images/plat-sachertorte.jpg"
+        },
+        {
+          "nom": "Apfelstrudel",
+          "texte": "Une pâte étirée si finement qu'on pourrait lire le journal à travers, garnie de pommes, de raisins secs et de cannelle. On le sert tiède.",
+          "photo": "images/plat-strudel.jpg"
+        },
+        {
+          "nom": "Kaiserschmarrn",
+          "texte": "Une crêpe épaisse déchirée en morceaux, caramélisée et poudrée de sucre glace, servie avec une compote de prunes. C'est un vrai dessert de montagne.",
+          "photo": "images/plat-kaiserschmarrn.jpg"
+        },
+        {
+          "nom": "Käsekrainer",
+          "texte": "La saucisse fumée au cœur de fromage fondu, servie au Würstelstand (kiosque à saucisses) avec de la moutarde douce (« süß ») ou forte (« scharf »).",
+          "photo": "images/plat-kasekrainer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "boire",
+      "titre": "À boire",
+      "intro": "Au café viennois, on ne commande jamais « un café » : il en existe des dizaines.",
+      "items": [
+        {
+          "nom": "Wiener Melange",
+          "texte": "Le classique : un espresso allongé, du lait chaud et de la mousse de lait. C'est le cousin viennois du cappuccino.",
+          "photo": "images/boisson-melange.jpg"
+        },
+        {
+          "nom": "Einspänner",
+          "texte": "Un café noir servi dans un verre à anse, coiffé d'une montagne de crème fouettée. Son nom vient des cochers de fiacre, qui le buvaient d'une main.",
+          "photo": "images/boisson-einspanner.jpg"
+        },
+        {
+          "nom": "Glühwein",
+          "texte": "Le vin chaud aux épices des marchés d'hiver, servi dans une tasse décorée. On paie une consigne (« Pfand ») pour la tasse.",
+          "photo": "images/boisson-gluhwein.jpg"
+        },
+        {
+          "nom": "Punsch",
+          "texte": "La boisson chaude des marchés viennois, aux fruits, souvent relevée de rhum. Le Kinderpunsch est sans alcool.",
+          "photo": "images/boisson-punsch.jpg"
+        }
+      ]
+    },
+    {
+      "id": "traditions",
+      "titre": "Traditions de fin d'année",
+      "intro": "Le 31 décembre s'appelle « Silvester ». À Vienne, on s'offre des porte-bonheur, les « Glücksbringer ».",
+      "items": [
+        {
+          "nom": "Le cochon porte-bonheur",
+          "texte": "Un petit cochon en massepain rose, souvent avec un trèfle dans la bouche. On l'offre pour souhaiter abondance et chance.",
+          "photo": "images/trad-cochon.jpg"
+        },
+        {
+          "nom": "Trèfle et fer à cheval",
+          "texte": "Trèfles à quatre feuilles en pot, fers à cheval et champignons rouges à pois blancs : on les trouve partout sur les marchés.",
+          "photo": "images/trad-trefle.jpg"
+        },
+        {
+          "nom": "Le ramoneur",
+          "texte": "Croiser un ramoneur porte chance ! Sa figurine décore les tables, et des ramoneurs en tenue souhaitent la bonne année dans les rues.",
+          "photo": "images/trad-ramoneur.jpg"
+        },
+        {
+          "nom": "La Pummerin, puis la valse",
+          "texte": "À minuit, la grande cloche de la cathédrale Saint-Étienne sonne la nouvelle année. Juste après retentit Le Beau Danube bleu, et l'on valse dans la rue ou dans son salon. La radio et la télévision ORF diffusent ce moment dans tout le pays.",
+          "photo": "images/pummerin.jpg"
+        }
+      ]
+    },
+    {
+      "id": "usages",
+      "titre": "Les bons usages",
+      "intro": "Quelques habitudes pour se sentir tout de suite chez soi.",
+      "items": [
+        {
+          "nom": "Le pourboire",
+          "texte": "Il est d'usage de laisser environ 10 %. On l'annonce en payant : pour une addition de 27 €, on dit « 30, bitte » ou « Stimmt so » (gardez la monnaie)."
+        },
+        {
+          "nom": "Bonjour à la viennoise",
+          "texte": "« Grüß Gott » (bonjour), « Bitte » (s'il vous plaît), « Danke » (merci), « Auf Wiedersehen » (au revoir). Le serveur est appelé « Herr Ober »."
+        },
+        {
+          "nom": "Les codes du café",
+          "texte": "On s'installe où l'on veut. Le café est servi avec un verre d'eau sur un plateau d'argent. On peut rester des heures avec un seul café et un journal : personne ne vous pressera.",
+          "photo": "images/usage-cafe.jpg"
+        },
+        {
+          "nom": "Pour payer",
+          "texte": "La carte bancaire est acceptée presque partout. Gardez toutefois un peu de liquide pour les kiosques et les marchés. On demande l'addition avec « Zahlen, bitte »."
+        }
+      ]
+    }
+  ]
+}

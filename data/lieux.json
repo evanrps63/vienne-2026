@@ -1,0 +1,1560 @@
+{
+  "_lisezMoi": "Données des lieux. Horaires : clé = jour de décembre (28, 29, 30, 31), valeur = \"HH:MM-HH:MM\" ou null si fermé. horairesStatut : 'officiel2026' (publié pour 2026), 'reference2025' (horaires des fêtes 2025/26, à reconfirmer), 'aVerifier' (non confirmé). Zones : schonbrunn, centre, ouest (Naschmarkt / MuseumsQuartier / Karlsplatz), est (Belvédère / Hundertwasser / Prater). Types : visite, balade, repas, cafe, soiree. priorite : 1 (bonus) à 3 (incontournable). budget : estimation en euros PAR PERSONNE (entrée, ou repas/consommation), tirée du champ prix ; à ajuster librement.",
+  "hotel": {
+    "nom": "FortyPlusOne Hotel",
+    "adresse": "Schönbrunner Straße 41, 1050 Wien",
+    "quartier": "Margareten (5e arrondissement)",
+    "lat": 48.193,
+    "lng": 16.358,
+    "acces": "U4 Pilgramgasse ou Kettenbrückengasse"
+  },
+  "lieux": [
+    {
+      "id": "schonbrunn",
+      "nom": "Château de Schönbrunn",
+      "sousTitre": "La résidence d'été de Sissi et François-Joseph",
+      "categories": [
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "schonbrunn",
+      "lat": 48.1849,
+      "lng": 16.3122,
+      "duree": 100,
+      "prix": "38 € adulte, visite des appartements avec audioguide (≈ 75 min), tarif du site officiel à reconfirmer pour 2026",
+      "acces": "U4 Schönbrunn",
+      "horaires": {
+        "29": "08:30-15:30",
+        "30": "08:30-15:30",
+        "31": "08:30-15:30"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Horaires des fêtes 2025/26 : 8h30–15h30. À reconfirmer pour 2026.",
+      "reservation": "Billet à heure fixe : à acheter UNIQUEMENT sur imperialtickets.com (site officiel).",
+      "description": "Les appartements impériaux, la galerie des glaces où Mozart enfant a joué, et le bureau de François-Joseph. Un voyage au cœur de la vie de cour.",
+      "astuce": "Réservez le premier créneau du matin : il y a beaucoup moins de monde.",
+      "priorite": 3,
+      "photos": [
+        "images/schonbrunn.jpg"
+      ],
+      "budget": 38,
+      "resa": {
+        "niveau": "avant",
+        "site": "imperialtickets.com",
+        "url": "https://www.imperialtickets.com",
+        "etapes": [
+          "Ouvrez imperialtickets.com (le seul site officiel).",
+          "Choisissez « Schloss Schönbrunn », la date, puis le créneau le plus tôt possible.",
+          "Payez par carte et gardez le billet (QR code) sur le téléphone."
+        ],
+        "conseil": "Méfiez-vous des autres sites qui revendent plus cher : seul imperialtickets.com est officiel."
+      }
+    },
+    {
+      "id": "marche-schonbrunn",
+      "nom": "Marché du Nouvel An de Schönbrunn",
+      "sousTitre": "Le marché qui reste ouvert après Noël",
+      "categories": [
+        "marches",
+        "gastro"
+      ],
+      "type": "visite",
+      "zone": "schonbrunn",
+      "lat": 48.1862,
+      "lng": 16.3127,
+      "duree": 60,
+      "prix": "Entrée gratuite (Glühwein ou Punsch : environ 5 € + consigne de la tasse, à vérifier)",
+      "acces": "U4 Schönbrunn",
+      "horaires": {
+        "29": "10:00-19:00",
+        "30": "10:00-19:00",
+        "31": "10:00-16:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Ouvert jusqu'au 6 janvier 2027. Horaires après Noël annoncés à 10h–19h (sources non officielles). L'horaire du 31 décembre n'est pas confirmé.",
+      "reservation": null,
+      "description": "Devant la façade jaune du château, les chalets deviennent un marché du Nouvel An : artisanat, porte-bonheur, Kaiserschmarrn et vin chaud.",
+      "astuce": "Gardez la tasse de Punsch en souvenir (consigne) ou rendez-la pour récupérer quelques euros.",
+      "priorite": 3,
+      "photos": [
+        "images/marche-schonbrunn.jpg",
+        "images/marche2.jpg",
+        "images/boisson-punsch.jpg"
+      ],
+      "budget": 10,
+      "resa": {
+        "niveau": "surplace",
+        "site": null,
+        "url": null,
+        "etapes": [
+          "Rien à réserver : on y va librement."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "gloriette",
+      "nom": "La Gloriette et le parc",
+      "sousTitre": "La plus belle vue sur Schönbrunn et Vienne",
+      "categories": [
+        "vues",
+        "palais",
+        "balades"
+      ],
+      "type": "balade",
+      "zone": "schonbrunn",
+      "lat": 48.1781,
+      "lng": 16.3089,
+      "duree": 60,
+      "prix": "Parc gratuit, consommation au café en plus",
+      "acces": "À pied depuis le château (montée douce de 15 min)",
+      "horaires": {
+        "29": "08:30-16:30",
+        "30": "08:30-16:30",
+        "31": "08:30-16:30"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Café Gloriette : 8h30–17h pendant les fêtes 2025/26. Le parc ferme tôt en hiver. Il fait nuit vers 16h15.",
+      "reservation": null,
+      "description": "Une montée tranquille à travers les jardins jusqu'à la colonnade impériale. En haut, le château et toute la ville s'étendent sous vos yeux.",
+      "astuce": "La pente est régulière mais longue : prenez votre temps, il y a des bancs.",
+      "priorite": 2,
+      "photos": [
+        "images/gloriette.jpg"
+      ],
+      "budget": 6
+    },
+    {
+      "id": "cafe-residenz",
+      "nom": "Café Residenz (Schönbrunn)",
+      "sousTitre": "Déjeuner et strudel au château",
+      "categories": [
+        "cafes",
+        "gastro"
+      ],
+      "type": "repas",
+      "zone": "schonbrunn",
+      "lat": 48.1857,
+      "lng": 16.3109,
+      "duree": 60,
+      "prix": "Plat environ 15–25 € (à vérifier)",
+      "acces": "Dans la cour du château",
+      "horaires": {
+        "29": "09:00-18:00",
+        "30": "09:00-18:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Horaires à vérifier sur le site du café.",
+      "reservation": null,
+      "description": "Le café-restaurant du château, connu pour ses démonstrations de fabrication de l'Apfelstrudel.",
+      "astuce": "Goûtez le strudel tiède avec de la crème fouettée.",
+      "priorite": 2,
+      "photos": [
+        "images/plat-strudel.jpg",
+        "images/cafe-residenz.jpg"
+      ],
+      "budget": 20
+    },
+    {
+      "id": "sisi",
+      "nom": "Hofburg : Musée Sissi et Appartements impériaux",
+      "sousTitre": "La vraie vie de l'impératrice Élisabeth",
+      "categories": [
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2071,
+      "lng": 16.3656,
+      "duree": 90,
+      "prix": "Environ 20 € adulte (Musée Sissi + Appartements + Collection d'argenterie), à vérifier",
+      "acces": "U3 Herrengasse. Entrée par la porte Kaisertor (cour intérieure).",
+      "horaires": {
+        "29": "09:00-16:15",
+        "30": "09:00-16:15",
+        "31": "09:00-16:15"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Pendant les fêtes 2025/26 : 9h–16h15. À reconfirmer pour 2026.",
+      "reservation": "Achat en ligne conseillé (imperialtickets.com).",
+      "description": "Robes, éventails, secrets de beauté et voyages de Sissi, puis les salons où vivait le couple impérial et les services de table de la cour.",
+      "astuce": "Depuis 2026, l'entrée se fait par la porte Kaisertor, dans la cour intérieure de la Hofburg.",
+      "priorite": 3,
+      "photos": [
+        "images/sisi.jpg"
+      ],
+      "budget": 20,
+      "resa": {
+        "niveau": "avant",
+        "site": "imperialtickets.com",
+        "url": "https://www.imperialtickets.com",
+        "etapes": [
+          "Ouvrez imperialtickets.com.",
+          "Choisissez le billet « Sisi Museum, Kaiserappartements & Silberkammer » et la date.",
+          "Gardez le billet sur le téléphone. L'entrée se fait par la porte Kaisertor."
+        ],
+        "conseil": "Le « Sisi Ticket » combine Schönbrunn et la Hofburg : utile si vous faites les deux."
+      }
+    },
+    {
+      "id": "schatzkammer",
+      "nom": "Trésor impérial (Schatzkammer)",
+      "sousTitre": "Couronnes et joyaux des Habsbourg",
+      "categories": [
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2065,
+      "lng": 16.3657,
+      "duree": 60,
+      "prix": "À vérifier sur kaiserliche-schatzkammer.at",
+      "acces": "U3 Herrengasse",
+      "horaires": {
+        "29": null,
+        "30": "09:00-17:30",
+        "31": "09:00-17:30"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 9h–17h30. Habituellement fermé le mardi (donc le 29) : à vérifier.",
+      "reservation": null,
+      "description": "La couronne du Saint-Empire, des joyaux et des trésors millénaires, dans une ambiance feutrée.",
+      "astuce": "Une visite courte et éblouissante, idéale après le Musée Sissi tout proche.",
+      "priorite": 1,
+      "photos": [
+        "images/schatzkammer.jpg"
+      ],
+      "budget": 20,
+      "resa": {
+        "niveau": "surplace",
+        "site": "kaiserliche-schatzkammer.at",
+        "url": "https://www.kaiserliche-schatzkammer.at",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "kapuzinergruft",
+      "nom": "Crypte impériale (Kapuzinergruft)",
+      "sousTitre": "Là où reposent Sissi et François-Joseph",
+      "categories": [
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2057,
+      "lng": 16.3697,
+      "duree": 40,
+      "prix": "À vérifier sur kaisergruft.at",
+      "acces": "U1/U3 Stephansplatz (Neuer Markt)",
+      "horaires": {
+        "29": "10:00-18:00",
+        "30": "10:00-18:00",
+        "31": "10:00-15:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 10h–18h, et 10h–15h le 31. À reconfirmer.",
+      "reservation": null,
+      "description": "Sous l'église des Capucins, les tombeaux des Habsbourg : 12 empereurs et 19 impératrices. Sissi y repose à côté de François-Joseph et de leur fils Rodolphe.",
+      "astuce": "Le grand sarcophage baroque de Marie-Thérèse est impressionnant.",
+      "priorite": 2,
+      "photos": [
+        "images/kapuzinergruft.jpg"
+      ],
+      "budget": 10,
+      "resa": {
+        "niveau": "surplace",
+        "site": "kaisergruft.at",
+        "url": "https://www.kaisergruft.at",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "hofreitschule",
+      "nom": "École espagnole d'équitation",
+      "sousTitre": "Représentation des chevaux lipizzans",
+      "categories": [
+        "palais",
+        "musique"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2076,
+      "lng": 16.3664,
+      "duree": 80,
+      "heureFixe": "11:00",
+      "jours": [
+        "31"
+      ],
+      "prix": "Selon la catégorie de place, à vérifier sur srs.at",
+      "acces": "U3 Herrengasse / Michaelerplatz",
+      "horaires": {
+        "31": "11:00-12:20"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Une représentation est annoncée le jeudi 31/12/2026 à 11h (wien.info). Les autres jours sont à vérifier.",
+      "reservation": "Indispensable : les places partent des semaines à l'avance (srs.at).",
+      "description": "Les célèbres chevaux blancs dansent au son de la musique classique, dans le manège baroque de la Hofburg, sous les lustres.",
+      "astuce": "Les places au premier rang de la galerie offrent la meilleure vue.",
+      "priorite": 2,
+      "photos": [
+        "images/hofreitschule.jpg"
+      ],
+      "budget": 60,
+      "resa": {
+        "niveau": "urgent",
+        "site": "srs.at",
+        "url": "https://www.srs.at",
+        "etapes": [
+          "Ouvrez srs.at et cherchez la représentation du 31 décembre à 11h.",
+          "Choisissez votre catégorie de place (la galerie offre une bonne vue).",
+          "Payez et gardez la confirmation."
+        ],
+        "conseil": "Les places partent des semaines à l'avance : réservez dès que possible."
+      }
+    },
+    {
+      "id": "prunksaal",
+      "nom": "Salle d'apparat de la Bibliothèque nationale",
+      "sousTitre": "L'une des plus belles bibliothèques du monde",
+      "categories": [
+        "palais",
+        "balades"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2063,
+      "lng": 16.367,
+      "duree": 45,
+      "prix": "12 € (réduit 10,50 €), selon wien.info",
+      "acces": "Josefsplatz, U3 Herrengasse",
+      "horaires": {
+        "29": "09:00-18:00",
+        "30": "09:00-18:00",
+        "31": "09:00-18:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Ouvert le 31/12/2025 selon les horaires des fêtes. Une ancienne source signale des fermetures certains 31 décembre : à vérifier.",
+      "reservation": null,
+      "description": "Une salle baroque de 80 m couverte de fresques, avec 200 000 livres anciens. On en reste bouche bée.",
+      "astuce": "Levez les yeux vers la coupole centrale.",
+      "priorite": 2,
+      "photos": [
+        "images/prunksaal.jpg"
+      ],
+      "budget": 12,
+      "resa": {
+        "niveau": "surplace",
+        "site": "onb.ac.at",
+        "url": "https://www.onb.ac.at",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "belvedere",
+      "nom": "Belvédère supérieur : Le Baiser de Klimt",
+      "sousTitre": "Le chef-d'œuvre doré de l'Art nouveau",
+      "categories": [
+        "art",
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "est",
+      "lat": 48.1915,
+      "lng": 16.3809,
+      "duree": 100,
+      "prix": "23 € adulte (tarif unique depuis mars 2026)",
+      "acces": "Tram D, arrêt Schloss Belvedere",
+      "horaires": {
+        "29": "09:00-18:00",
+        "30": "09:00-18:00",
+        "31": "09:00-19:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 9h–19h (dont le 31). Habituellement 9h–18h. À reconfirmer.",
+      "reservation": "Billet avec créneau horaire obligatoire : à réserver en ligne (belvedere.at).",
+      "description": "Dans un palais baroque, Le Baiser et Judith de Klimt, les portraits de Schiele et une vue magnifique sur les jardins jusqu'à la ville.",
+      "astuce": "Commencez par le 1er étage pour voir Le Baiser avant l'affluence.",
+      "priorite": 3,
+      "photos": [
+        "images/baiser.jpg",
+        "images/belvedere.jpg"
+      ],
+      "budget": 23,
+      "resa": {
+        "niveau": "avant",
+        "site": "belvedere.at",
+        "url": "https://www.belvedere.at",
+        "etapes": [
+          "Ouvrez belvedere.at et choisissez « Oberes Belvedere » (Belvédère supérieur).",
+          "Choisissez la date et un créneau horaire : il est obligatoire.",
+          "Payez et gardez le billet sur le téléphone."
+        ],
+        "conseil": "Prenez le créneau de l'ouverture pour voir Le Baiser sans la foule."
+      }
+    },
+    {
+      "id": "albertina",
+      "nom": "Albertina",
+      "sousTitre": "De Monet à Picasso, dans un palais",
+      "categories": [
+        "art",
+        "palais"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2046,
+      "lng": 16.3682,
+      "duree": 90,
+      "prix": "19,90 € (15,90 € dès 65 ans), selon le site officiel",
+      "acces": "U1/U2/U4 Karlsplatz ou Oper",
+      "horaires": {
+        "29": "10:00-18:00",
+        "30": "10:00-21:00",
+        "31": "10:00-18:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "31/12/2025 : 10h–18h. Nocturne le mercredi jusqu'à 21h. À reconfirmer.",
+      "reservation": null,
+      "description": "Les impressionnistes et la peinture moderne, puis les salons d'apparat des Habsbourg : deux musées en un.",
+      "astuce": "Pensez au tarif senior à la caisse.",
+      "priorite": 2,
+      "photos": [
+        "images/albertina.jpg"
+      ],
+      "budget": 20,
+      "resa": {
+        "niveau": "facultatif",
+        "site": "albertina.at",
+        "url": "https://www.albertina.at",
+        "etapes": [
+          "Possible sur albertina.at, ou à la caisse sur place."
+        ],
+        "conseil": "Demandez le tarif senior à la caisse."
+      }
+    },
+    {
+      "id": "khm",
+      "nom": "Kunsthistorisches Museum",
+      "sousTitre": "Bruegel, Vermeer et un café sous la coupole",
+      "categories": [
+        "art"
+      ],
+      "type": "visite",
+      "zone": "ouest",
+      "lat": 48.2038,
+      "lng": 16.3617,
+      "duree": 120,
+      "prix": "Environ 24 € adulte (sources non officielles), à vérifier",
+      "acces": "U2/U3 Volkstheater ou U2 Museumsquartier",
+      "horaires": {
+        "29": "10:00-18:00",
+        "30": "10:00-18:00",
+        "31": "10:00-21:00"
+      },
+      "horairesStatut": "officiel2026",
+      "horairesNote": "Le 31/12/2026 : 10h–21h (site officiel khm.at). Les autres jours : 10h–18h.",
+      "reservation": null,
+      "description": "L'un des plus grands musées d'Europe : la salle Bruegel, Vermeer, Raphaël, et un café somptueux sous la coupole de marbre.",
+      "astuce": "Faites une pause gâteau au Café-Restaurant de la coupole, c'est une expérience en soi.",
+      "priorite": 3,
+      "photos": [
+        "images/khm.jpg",
+        "images/khm2.jpg"
+      ],
+      "budget": 24,
+      "resa": {
+        "niveau": "facultatif",
+        "site": "khm.at",
+        "url": "https://www.khm.at",
+        "etapes": [
+          "Possible sur khm.at pour éviter la file, ou à la caisse sur place."
+        ],
+        "conseil": "Pas indispensable : la file avance vite."
+      }
+    },
+    {
+      "id": "leopold",
+      "nom": "Leopold Museum",
+      "sousTitre": "Schiele, Klimt et la Vienne 1900",
+      "categories": [
+        "art"
+      ],
+      "type": "visite",
+      "zone": "ouest",
+      "lat": 48.2027,
+      "lng": 16.3591,
+      "duree": 90,
+      "prix": "À vérifier sur leopoldmuseum.org",
+      "acces": "U2 Museumsquartier",
+      "horaires": {
+        "29": null,
+        "30": "10:00-18:00",
+        "31": "10:00-17:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "31/12/2025 : 10h–17h. Habituellement fermé le mardi en hiver (29) : à vérifier.",
+      "reservation": null,
+      "description": "La plus grande collection d'Egon Schiele et une belle section sur la Vienne 1900 et les arts décoratifs.",
+      "astuce": "Le MuseumsQuartier voisin est agréable pour une pause.",
+      "priorite": 1,
+      "photos": [
+        "images/leopold.jpg"
+      ],
+      "budget": 17,
+      "resa": {
+        "niveau": "surplace",
+        "site": "leopoldmuseum.org",
+        "url": "https://www.leopoldmuseum.org",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "kunsthauswien",
+      "nom": "KunstHausWien, musée Hundertwasser",
+      "sousTitre": "Couleurs, courbes et sols ondulés",
+      "categories": [
+        "art",
+        "balades"
+      ],
+      "type": "visite",
+      "zone": "est",
+      "lat": 48.2109,
+      "lng": 16.3932,
+      "duree": 60,
+      "prix": "À vérifier sur kunsthauswien.com",
+      "acces": "Tram 1, arrêt Radetzkyplatz",
+      "horaires": {
+        "29": "10:00-18:00",
+        "30": "10:00-18:00",
+        "31": "10:00-18:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 10h–18h. À reconfirmer.",
+      "reservation": null,
+      "description": "Le musée imaginé par Hundertwasser lui-même : façade en damier, arbres sur le toit, sols qui ondulent sous les pieds.",
+      "astuce": "Combinez avec la Hundertwasserhaus, à 5 minutes à pied.",
+      "priorite": 1,
+      "photos": [
+        "images/kunsthauswien.jpg"
+      ],
+      "budget": 15,
+      "resa": {
+        "niveau": "surplace",
+        "site": "kunsthauswien.com",
+        "url": "https://www.kunsthauswien.com",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "hundertwasserhaus",
+      "nom": "Hundertwasserhaus",
+      "sousTitre": "L'immeuble le plus joyeux de Vienne",
+      "categories": [
+        "balades",
+        "art"
+      ],
+      "type": "balade",
+      "zone": "est",
+      "lat": 48.2072,
+      "lng": 16.3944,
+      "duree": 30,
+      "prix": "Gratuit (on l'admire de l'extérieur)",
+      "acces": "Tram 1, arrêt Hetzgasse",
+      "horaires": {
+        "29": "08:00-20:00",
+        "30": "08:00-20:00",
+        "31": "08:00-20:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "C'est un immeuble d'habitation : on le voit de la rue, à toute heure. La galerie marchande « Village » en face ouvre environ de 9h à 18h.",
+      "reservation": null,
+      "description": "Des façades multicolores, des arbres aux fenêtres, pas une ligne droite : une utopie habitée et pleine de poésie.",
+      "astuce": "Les habitants y vivent : on reste discret sur le trottoir.",
+      "priorite": 2,
+      "photos": [
+        "images/hundertwasserhaus.jpg"
+      ],
+      "budget": 0
+    },
+    {
+      "id": "haus-der-musik",
+      "nom": "Haus der Musik",
+      "sousTitre": "Diriger l'Orchestre philharmonique de Vienne",
+      "categories": [
+        "musique"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2037,
+      "lng": 16.3739,
+      "duree": 90,
+      "prix": "Environ 17–19 € adulte (sources divergentes), à vérifier",
+      "acces": "U1/U3 Stephansplatz ou U1/U2/U4 Karlsplatz",
+      "horaires": {
+        "29": "10:00-22:00",
+        "30": "10:00-22:00",
+        "31": "10:00-22:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 10h–22h, y compris le 31. À reconfirmer.",
+      "reservation": null,
+      "description": "Un musée ludique du son : on y découvre Mozart, Beethoven et Strauss, et l'on peut diriger virtuellement les Wiener Philharmoniker.",
+      "astuce": "Essayez le pupitre de chef d'orchestre : fous rires garantis.",
+      "priorite": 2,
+      "photos": [
+        "images/haus-der-musik.jpg"
+      ],
+      "budget": 18,
+      "resa": {
+        "niveau": "surplace",
+        "site": "hdm.at",
+        "url": "https://www.hdm.at",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "mozarthaus",
+      "nom": "Mozarthaus",
+      "sousTitre": "L'appartement où Mozart a composé Les Noces de Figaro",
+      "categories": [
+        "musique"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2079,
+      "lng": 16.3755,
+      "duree": 60,
+      "prix": "16 € adulte (wien.info), ou 22 € avec la Haus der Musik",
+      "acces": "U1/U3 Stephansplatz",
+      "horaires": {
+        "29": "10:00-19:00",
+        "30": "10:00-19:00",
+        "31": "10:00-18:00"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "31/12/2025 : 10h–18h. Habituellement 10h–19h.",
+      "reservation": null,
+      "description": "Le seul appartement viennois de Mozart encore conservé, à deux pas de la cathédrale, avec une exposition sur sa vie à Vienne.",
+      "astuce": "Le billet combiné avec la Haus der Musik est avantageux.",
+      "priorite": 2,
+      "photos": [
+        "images/mozarthaus.jpg"
+      ],
+      "budget": 16,
+      "resa": {
+        "niveau": "surplace",
+        "site": "mozarthausvienna.at",
+        "url": "https://www.mozarthausvienna.at",
+        "etapes": [
+          "Billet à la caisse, sur place."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "stephansdom",
+      "nom": "Cathédrale Saint-Étienne",
+      "sousTitre": "Le cœur de Vienne et sa cloche Pummerin",
+      "categories": [
+        "balades",
+        "vues",
+        "musique"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2085,
+      "lng": 16.3731,
+      "duree": 45,
+      "prix": "Entrée de la nef gratuite. Billet tout compris (tours, catacombes) : environ 25 €, à vérifier",
+      "acces": "U1/U3 Stephansplatz",
+      "horaires": {
+        "29": "09:00-17:30",
+        "30": "09:00-17:30",
+        "31": "09:00-15:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Cathédrale ouverte de 6h à 22h, mais les visites s'arrêtent pendant les offices. Ascenseur de la tour nord (Pummerin) en hiver : 9h–17h30. Le 31, journée très chargée.",
+      "reservation": null,
+      "description": "Le toit de tuiles colorées, la nef gothique et, dans la tour nord, la Pummerin : la cloche qui sonne le Nouvel An pour toute l'Autriche.",
+      "astuce": "L'ascenseur de la tour nord vous amène près de la Pummerin, sans escalier.",
+      "priorite": 3,
+      "photos": [
+        "images/stephansdom.jpg",
+        "images/pummerin.jpg"
+      ],
+      "budget": 0,
+      "resa": {
+        "niveau": "surplace",
+        "site": null,
+        "url": null,
+        "etapes": [
+          "Rien à réserver : on y va librement."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "graben",
+      "nom": "Graben, Kohlmarkt et Kärntner Straße",
+      "sousTitre": "La promenade élégante du centre",
+      "categories": [
+        "balades",
+        "marches"
+      ],
+      "type": "balade",
+      "zone": "centre",
+      "lat": 48.2087,
+      "lng": 16.369,
+      "duree": 45,
+      "prix": "Gratuit",
+      "acces": "U1/U3 Stephansplatz",
+      "horaires": {
+        "29": "09:00-21:00",
+        "30": "09:00-21:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Rues piétonnes accessibles à toute heure. Le 31, l'ambiance de fête commence dès 14h.",
+      "reservation": null,
+      "description": "Les rues piétonnes illuminées pour les fêtes, la colonne de la Peste baroque et les vitrines des fournisseurs de la cour.",
+      "astuce": "Les illuminations sont encore plus belles à la tombée de la nuit, vers 16h30.",
+      "priorite": 3,
+      "photos": [
+        "images/hero2.jpg",
+        "images/graben.jpg"
+      ],
+      "budget": 0
+    },
+    {
+      "id": "ring",
+      "nom": "Promenade du Ring impérial",
+      "sousTitre": "De l'Opéra à l'Hôtel de Ville",
+      "categories": [
+        "balades",
+        "palais",
+        "film"
+      ],
+      "type": "balade",
+      "zone": "ouest",
+      "lat": 48.2077,
+      "lng": 16.3608,
+      "duree": 60,
+      "prix": "Gratuit",
+      "acces": "Départ de l'Opéra (U1/U2/U4 Karlsplatz), arrivée au Rathaus (U2)",
+      "horaires": {
+        "29": "09:00-18:00",
+        "30": "09:00-18:00",
+        "31": "09:00-13:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Promenade en plein air. Le 31, le Rathausplatz se prépare pour la fête.",
+      "reservation": null,
+      "description": "Le grand boulevard des Habsbourg : l'Opéra, le Burggarten, la Heldenplatz, le Parlement aux allures grecques et l'Hôtel de Ville néogothique.",
+      "astuce": "Fatigués ? Les trams 1 et 2 longent le Ring : montez et regardez défiler les palais.",
+      "priorite": 2,
+      "photos": [
+        "images/ring.jpg"
+      ],
+      "budget": 0,
+      "film": "Dans le tram qui longe le Ring, ils se racontent leurs premiers émois. Montez dans le tram 1, 71 ou D à l'arrêt Parlament pour refaire le trajet."
+    },
+    {
+      "id": "wagner",
+      "nom": "Maisons Otto Wagner (Linke Wienzeile)",
+      "sousTitre": "La Majolikahaus et ses roses de céramique",
+      "categories": [
+        "balades",
+        "art"
+      ],
+      "type": "balade",
+      "zone": "ouest",
+      "lat": 48.1965,
+      "lng": 16.3594,
+      "duree": 15,
+      "prix": "Gratuit (façades)",
+      "acces": "À pied depuis l'hôtel (≈ 5 min)",
+      "horaires": {
+        "28": "17:00-22:00",
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Immeubles d'habitation : on les admire depuis la rue.",
+      "reservation": null,
+      "description": "Deux façades Art nouveau de 1899 : l'une couverte de roses en céramique, l'autre de médaillons dorés. Un avant-goût de la Vienne 1900, juste à côté de l'hôtel.",
+      "astuce": "Placez-vous de l'autre côté de la rue pour tout voir.",
+      "priorite": 1,
+      "photos": [
+        "images/wagner.jpg"
+      ],
+      "budget": 0
+    },
+    {
+      "id": "karlskirche",
+      "nom": "Karlskirche et la Sécession",
+      "sousTitre": "Baroque et Art nouveau face à face",
+      "categories": [
+        "balades",
+        "art"
+      ],
+      "type": "balade",
+      "zone": "ouest",
+      "lat": 48.1995,
+      "lng": 16.37,
+      "duree": 40,
+      "prix": "Extérieurs gratuits",
+      "acces": "U1/U2/U4 Karlsplatz",
+      "horaires": {
+        "28": "17:00-22:00",
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "On admire les façades depuis la place, à toute heure.",
+      "reservation": null,
+      "description": "La grande coupole baroque de la Karlskirche, les pavillons d'Otto Wagner, puis le dôme de lauriers dorés du pavillon de la Sécession.",
+      "astuce": "Le « chou doré » de la Sécession brille joliment le soir.",
+      "priorite": 2,
+      "photos": [
+        "images/karlskirche.jpg"
+      ],
+      "budget": 0
+    },
+    {
+      "id": "riesenrad",
+      "nom": "Grande roue du Prater",
+      "sousTitre": "La Vienne du « Troisième homme »",
+      "categories": [
+        "vues",
+        "film"
+      ],
+      "type": "visite",
+      "zone": "est",
+      "lat": 48.2166,
+      "lng": 16.3958,
+      "duree": 45,
+      "prix": "Dès 14,50 € adulte (2026, à vérifier)",
+      "acces": "U1/U2 Praterstern",
+      "horaires": {
+        "29": "10:00-22:15",
+        "30": "10:00-22:15",
+        "31": "10:00-23:59"
+      },
+      "horairesStatut": "reference2025",
+      "horairesNote": "Fêtes 2025/26 : 10h–22h15, et jusqu'à 2h la nuit du 31. À reconfirmer.",
+      "reservation": null,
+      "description": "Les cabines en bois de 1897 montent à 65 mètres, lentement. Au coucher du soleil, toute la ville s'illumine sous vos pieds.",
+      "astuce": "Montez vers 16h pour voir la ville passer du jour aux lumières.",
+      "priorite": 2,
+      "photos": [
+        "images/riesenrad.jpg"
+      ],
+      "budget": 15,
+      "film": "C'est dans une cabine de la grande roue que Céline et Jesse s'embrassent pour la première fois.",
+      "resa": {
+        "niveau": "facultatif",
+        "site": "wienerriesenrad.com",
+        "url": "https://wienerriesenrad.com",
+        "etapes": [
+          "Billets en ligne sur wienerriesenrad.com, ou à la caisse au pied de la roue."
+        ],
+        "conseil": "En ligne, vous évitez la file d'attente."
+      }
+    },
+    {
+      "id": "wintermarkt-prater",
+      "nom": "Marché d'hiver du Prater",
+      "sousTitre": "Lumières et Punsch au pied de la grande roue",
+      "categories": [
+        "marches",
+        "gastro"
+      ],
+      "type": "visite",
+      "zone": "est",
+      "lat": 48.216,
+      "lng": 16.395,
+      "duree": 45,
+      "prix": "Entrée gratuite",
+      "acces": "U1/U2 Praterstern",
+      "horaires": {
+        "29": "11:00-22:00",
+        "30": "11:00-22:00",
+        "31": "12:00-23:59"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "En 2025/26, il était ouvert jusqu'en janvier, et le 31 de 12h à 2h. L'édition 2026/27 n'est pas encore confirmée.",
+      "reservation": null,
+      "description": "Le marché d'hiver de la Riesenradplatz : chalets, braseros et vin chaud au pied de la grande roue.",
+      "astuce": "À combiner avec un tour de grande roue.",
+      "priorite": 1,
+      "photos": [
+        "images/wintermarkt-prater.jpg"
+      ],
+      "budget": 8,
+      "resa": {
+        "niveau": "surplace",
+        "site": null,
+        "url": null,
+        "etapes": [
+          "Rien à réserver : on y va librement."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "naschmarkt",
+      "nom": "Naschmarkt",
+      "sousTitre": "Le grand marché gourmand, à 10 min de l'hôtel",
+      "categories": [
+        "gastro",
+        "marches"
+      ],
+      "type": "repas",
+      "zone": "ouest",
+      "lat": 48.1985,
+      "lng": 16.3624,
+      "duree": 75,
+      "prix": "Repas environ 15–30 € (à vérifier)",
+      "acces": "À pied depuis l'hôtel (≈ 800 m), ou U4 Kettenbrückengasse",
+      "horaires": {
+        "28": "17:00-23:00",
+        "29": "08:00-23:00",
+        "30": "08:00-23:00",
+        "31": "08:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Étals : du lundi au vendredi, 6h–21h (beaucoup ferment vers 18–19h). Restaurants du marché : jusqu'à 23h. Le 31, horaires réduits (à vérifier).",
+      "reservation": null,
+      "description": "Un kilomètre d'étals d'épices, de fromages et de petits restaurants. L'endroit idéal pour un repas simple et vivant.",
+      "astuce": "Le soir, ce sont surtout les restaurants qui restent ouverts : choisissez celui qui vous plaît en flânant.",
+      "priorite": 2,
+      "photos": [
+        "images/naschmarkt.jpg"
+      ],
+      "budget": 25
+    },
+    {
+      "id": "figlmuller",
+      "nom": "Figlmüller (Wollzeile)",
+      "sousTitre": "Le schnitzel plus grand que l'assiette",
+      "categories": [
+        "gastro"
+      ],
+      "type": "repas",
+      "zone": "centre",
+      "lat": 48.2093,
+      "lng": 16.375,
+      "duree": 75,
+      "prix": "Schnitzel environ 20–30 € (à vérifier)",
+      "acces": "U1/U3 Stephansplatz",
+      "horaires": {
+        "29": "11:00-22:30",
+        "30": "11:00-22:30",
+        "31": "11:00-15:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Horaires et ouverture du 31 à vérifier sur figlmueller.at.",
+      "reservation": "Réservation fortement conseillée (en ligne), surtout en période de fêtes.",
+      "description": "Une institution depuis 1905 : le schnitzel de porc pané, fin et immense, avec une salade de pommes de terre.",
+      "astuce": "Le schnitzel est immense : à quatre, prenez-en trois et des salades à partager.",
+      "priorite": 2,
+      "photos": [
+        "images/plat-schnitzel.jpg",
+        "images/figlmuller.jpg"
+      ],
+      "budget": 28,
+      "resa": {
+        "niveau": "bientot",
+        "site": "figlmueller.at",
+        "url": "https://www.figlmueller.at",
+        "etapes": [
+          "Ouvrez figlmueller.at et touchez « Reservierung » (réservation).",
+          "Choisissez l'adresse « Wollzeile », le jour, l'heure et 4 personnes.",
+          "Gardez l'e-mail de confirmation."
+        ],
+        "conseil": "La salle de la Wollzeile est petite : réservez 2 à 3 semaines avant."
+      }
+    },
+    {
+      "id": "plachutta",
+      "nom": "Plachutta (Wollzeile)",
+      "sousTitre": "Le Tafelspitz, plat préféré de l'empereur",
+      "categories": [
+        "gastro"
+      ],
+      "type": "repas",
+      "zone": "centre",
+      "lat": 48.2088,
+      "lng": 16.3801,
+      "duree": 90,
+      "prix": "Tafelspitz environ 30–35 € (à vérifier)",
+      "acces": "U3 Stubentor",
+      "horaires": {
+        "29": "11:30-23:00",
+        "30": "11:30-23:00",
+        "31": "11:30-15:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Horaires et ouverture du 31 à vérifier sur plachutta.at.",
+      "reservation": "Réservation conseillée.",
+      "description": "Le bœuf bouilli servi dans sa marmite de cuivre : on boit d'abord le bouillon, puis la viande avec le raifort aux pommes et la sauce à la ciboulette.",
+      "astuce": "Tartinez la moelle de l'os sur du pain grillé : c'est la tradition.",
+      "priorite": 2,
+      "photos": [
+        "images/plat-tafelspitz.jpg"
+      ],
+      "budget": 35,
+      "resa": {
+        "niveau": "bientot",
+        "site": "plachutta.at",
+        "url": "https://www.plachutta.at",
+        "etapes": [
+          "Ouvrez plachutta.at et choisissez le restaurant « Wollzeile ».",
+          "Réservez en ligne, ou appelez le numéro indiqué sur le site.",
+          "Gardez la confirmation."
+        ],
+        "conseil": "Réservez au moins une semaine avant, plus pendant les fêtes."
+      }
+    },
+    {
+      "id": "wurstelstand",
+      "nom": "Würstelstand Bitzinger (Albertina)",
+      "sousTitre": "Le casse-croûte viennois face à l'Opéra",
+      "categories": [
+        "gastro"
+      ],
+      "type": "repas",
+      "zone": "centre",
+      "lat": 48.2044,
+      "lng": 16.3688,
+      "duree": 30,
+      "prix": "Saucisse environ 5–7 € (à vérifier)",
+      "acces": "U1/U2/U4 Karlsplatz (Oper)",
+      "horaires": {
+        "29": "10:00-23:00",
+        "30": "10:00-23:00",
+        "31": "10:00-23:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Ouvert très tard en général. À vérifier.",
+      "reservation": null,
+      "description": "Une Käsekrainer (saucisse au fromage fondu), de la moutarde et un cornichon, debout, à côté de l'Opéra : l'en-cas le plus viennois qui soit.",
+      "astuce": "Ayez un peu de monnaie sur vous, au cas où.",
+      "priorite": 1,
+      "photos": [
+        "images/plat-kasekrainer.jpg",
+        "images/wurstelstand.jpg"
+      ],
+      "budget": 7
+    },
+    {
+      "id": "demel",
+      "nom": "Demel",
+      "sousTitre": "L'ancien pâtissier de la cour impériale",
+      "categories": [
+        "cafes"
+      ],
+      "type": "cafe",
+      "zone": "centre",
+      "lat": 48.2085,
+      "lng": 16.3672,
+      "duree": 50,
+      "prix": "Café + gâteau environ 12–15 € (à vérifier)",
+      "acces": "U3 Herrengasse (Kohlmarkt 14)",
+      "horaires": {
+        "29": "10:00-19:00",
+        "30": "10:00-19:00",
+        "31": "10:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Tous les jours 10h–19h (wien.info). L'horaire du 31 n'est pas confirmé.",
+      "reservation": null,
+      "description": "Vitrines de bonbons, boiseries et serveuses en noir et blanc. On regarde les pâtissiers travailler derrière la vitre.",
+      "astuce": "Goûtez l'Annatorte ou la Sachertorte façon Demel, et comparez avec celle du Sacher !",
+      "priorite": 3,
+      "photos": [
+        "images/demel.jpg",
+        "images/plat-kaiserschmarrn.jpg"
+      ],
+      "budget": 14
+    },
+    {
+      "id": "sacher",
+      "nom": "Café Sacher",
+      "sousTitre": "La Sachertorte originale",
+      "categories": [
+        "cafes"
+      ],
+      "type": "cafe",
+      "zone": "centre",
+      "lat": 48.2039,
+      "lng": 16.3696,
+      "duree": 50,
+      "prix": "Part de Sachertorte + café environ 15 € (à vérifier)",
+      "acces": "Derrière l'Opéra, U1/U2/U4 Karlsplatz",
+      "horaires": {
+        "29": "08:00-22:00",
+        "30": "08:00-22:00",
+        "31": "08:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Les sources donnent des horaires différents (fermeture entre 22h et minuit). L'horaire du 31 n'est pas confirmé.",
+      "reservation": "Pas de réservation : il y a souvent une file d'attente. Elle est plus courte en matinée.",
+      "description": "Velours rouge, lustres et la célèbre Sachertorte : chocolat, confiture d'abricot et crème fouettée non sucrée.",
+      "astuce": "Venez vers 10h ou après 19h pour éviter l'attente.",
+      "priorite": 3,
+      "photos": [
+        "images/plat-sachertorte.jpg",
+        "images/sacher.jpg"
+      ],
+      "budget": 15
+    },
+    {
+      "id": "central",
+      "nom": "Café Central (ou son relais « Decentral »)",
+      "sousTitre": "Le café des écrivains et des révolutionnaires",
+      "categories": [
+        "cafes"
+      ],
+      "type": "cafe",
+      "zone": "centre",
+      "lat": 48.2104,
+      "lng": 16.3655,
+      "duree": 50,
+      "prix": "Café + pâtisserie environ 12 € (à vérifier)",
+      "acces": "U3 Herrengasse",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "ATTENTION : le café est fermé pour travaux depuis mars 2026, avec une réouverture annoncée pour « fin 2026 ». En attendant, le café éphémère « Decentral » accueille les clients sur la Freyung (Palais Harrach). À vérifier sur cafecentral.wien juste avant le départ.",
+      "reservation": null,
+      "description": "Colonnes de marbre, voûtes et pianiste : le café mythique où se retrouvaient Freud, Trotski et les poètes viennois.",
+      "astuce": "Si le Central n'a pas rouvert, le Decentral, tout proche, propose la même carte.",
+      "priorite": 2,
+      "photos": [
+        "images/central.jpg",
+        "images/boisson-einspanner.jpg"
+      ],
+      "budget": 12
+    },
+    {
+      "id": "sperl",
+      "nom": "Café Sperl",
+      "sousTitre": "Un vrai café viennois de quartier, près de l'hôtel",
+      "categories": [
+        "cafes",
+        "film"
+      ],
+      "type": "cafe",
+      "zone": "ouest",
+      "lat": 48.1999,
+      "lng": 16.3614,
+      "duree": 50,
+      "prix": "Melange + gâteau environ 10 € (à vérifier)",
+      "acces": "À pied depuis le Naschmarkt (Gumpendorfer Straße 11)",
+      "horaires": {
+        "29": "08:00-21:00",
+        "30": "08:00-21:00",
+        "31": "08:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Horaires à vérifier sur cafesperl.at.",
+      "reservation": null,
+      "description": "Billards, banquettes usées et journaux sur leurs supports en bois : le charme authentique de 1880, sans la foule.",
+      "astuce": "Essayez la « Sperl Schnitte », la spécialité maison.",
+      "priorite": 2,
+      "photos": [
+        "images/sperl.jpg",
+        "images/boisson-melange.jpg"
+      ],
+      "budget": 10,
+      "film": "Céline et Jesse y jouent la scène du faux coup de téléphone entre amis. Le café a très peu changé."
+    },
+    {
+      "id": "heuriger",
+      "nom": "Soirée au Heuriger (Mayer am Pfarrplatz)",
+      "sousTitre": "Taverne à vin et musique viennoise",
+      "categories": [
+        "gastro",
+        "musique"
+      ],
+      "type": "soiree",
+      "zone": "nord",
+      "lat": 48.2547,
+      "lng": 16.36,
+      "duree": 150,
+      "prix": "Repas + vin environ 30–40 € (à vérifier)",
+      "acces": "Taxi conseillé (≈ 25 min), ou tram D puis bus",
+      "horaires": {
+        "29": "16:00-23:59",
+        "30": "16:00-23:59"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Habituellement du lundi au jeudi à partir de 16h, avec de la musique live dès 19h (wien.info). Ouverture entre les fêtes à vérifier.",
+      "reservation": "Réservation conseillée par téléphone (pfarrplatz.at).",
+      "description": "Une maison de vignerons où Beethoven a vécu. On y boit le vin de l'année au buffet chaud, au son de l'accordéon et du violon.",
+      "astuce": "Commandez un « Gemischter Satz », le blanc typique des vignes de Vienne.",
+      "priorite": 2,
+      "photos": [
+        "images/heuriger.jpg"
+      ],
+      "budget": 35,
+      "resa": {
+        "niveau": "bientot",
+        "site": "pfarrplatz.at",
+        "url": "https://pfarrplatz.at",
+        "etapes": [
+          "Ouvrez pfarrplatz.at, ou appelez le +43 1 370 12 87 (numéro à vérifier sur le site).",
+          "Demandez une table pour 4 le soir prévu, en salle chauffée (« Stube »).",
+          "Vérifiez qu'ils sont bien ouverts entre Noël et le Nouvel An."
+        ],
+        "conseil": "Demandez à l'hôtel de commander le taxi pour le retour."
+      }
+    },
+    {
+      "id": "concert-strauss",
+      "nom": "Concert Mozart & Strauss",
+      "sousTitre": "Valses et airs célèbres dans une salle historique",
+      "categories": [
+        "musique"
+      ],
+      "type": "soiree",
+      "zone": "centre",
+      "lat": 48.2035,
+      "lng": 16.379,
+      "duree": 120,
+      "prix": "Environ 50–90 € selon la place et la salle (à vérifier)",
+      "acces": "Kursalon (parc municipal), U4 Stadtpark",
+      "horaires": {
+        "29": "20:00-22:00",
+        "30": "20:00-22:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Plusieurs salles (Kursalon, Musikverein, Konzerthaus…) proposent des concerts Mozart-Strauss. Le programme 2026 n'est pas encore confirmé.",
+      "reservation": "À réserver à l'avance sur le site de la salle choisie.",
+      "description": "Le Beau Danube bleu, la Petite musique de nuit, et parfois des danseurs de valse : la soirée viennoise par excellence.",
+      "astuce": "Privilégiez les billets vendus directement par la salle.",
+      "priorite": 3,
+      "photos": [
+        "images/concert-strauss.jpg"
+      ],
+      "budget": 70,
+      "resa": {
+        "niveau": "bientot",
+        "site": "soundofvienna.at",
+        "url": "https://www.soundofvienna.at",
+        "etapes": [
+          "Ouvrez soundofvienna.at (l'organisateur des concerts du Kursalon).",
+          "Choisissez la date et la catégorie de place (A = devant, B = milieu).",
+          "Payez et gardez le billet. Arrivez 20 à 30 minutes avant."
+        ],
+        "conseil": "Achetez directement chez l'organisateur : les revendeurs sont souvent plus chers."
+      }
+    },
+    {
+      "id": "opera",
+      "nom": "Soirée à l'Opéra national",
+      "sousTitre": "Le palais de la musique",
+      "categories": [
+        "musique"
+      ],
+      "type": "soiree",
+      "zone": "centre",
+      "lat": 48.2031,
+      "lng": 16.3692,
+      "duree": 180,
+      "prix": "De quelques euros (places debout) à plus de 200 € (à vérifier)",
+      "acces": "U1/U2/U4 Karlsplatz (Oper)",
+      "horaires": {
+        "29": "19:00-22:30",
+        "30": "19:00-22:30"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Le programme du 29 et du 30 décembre est à consulter sur wiener-staatsoper.at. Le 31, on y joue La Chauve-Souris (Die Fledermaus).",
+      "reservation": "Réservation indispensable (wiener-staatsoper.at).",
+      "description": "Velours rouge, dorures et l'un des meilleurs orchestres du monde. Même sans être mélomane, l'émotion est garantie.",
+      "astuce": "Des sous-titres en français s'affichent sur l'écran de chaque siège.",
+      "priorite": 2,
+      "photos": [
+        "images/opera.jpg"
+      ],
+      "budget": 100,
+      "resa": {
+        "niveau": "urgent",
+        "site": "wiener-staatsoper.at",
+        "url": "https://www.wiener-staatsoper.at",
+        "etapes": [
+          "Ouvrez wiener-staatsoper.at et regardez le programme du jour prévu.",
+          "Choisissez vos places (un écran de sous-titres en français équipe chaque siège).",
+          "Payez et gardez le billet."
+        ],
+        "conseil": "Les bonnes places partent très vite pendant les fêtes."
+      }
+    },
+    {
+      "id": "zollamtssteg",
+      "nom": "Passerelle Zollamtssteg",
+      "sousTitre": "La rencontre avec les deux comédiens",
+      "categories": [
+        "film",
+        "balades"
+      ],
+      "type": "balade",
+      "zone": "centre",
+      "lat": 48.2083,
+      "lng": 16.3854,
+      "duree": 15,
+      "prix": "Gratuit",
+      "budget": 0,
+      "acces": "U3/U4 Landstraße ou Wien Mitte, puis 5 min à pied",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Passerelle en accès libre.",
+      "reservation": null,
+      "description": "La passerelle verte en acier sur la Wien, juste avant qu'elle se jette dans le canal du Danube. C'est ici que Céline et Jesse croisent deux comédiens qui les invitent à leur pièce.",
+      "film": "Les deux comédiens leur parlent de leur pièce avec une vache… Le plancher en bois du film a depuis été remplacé.",
+      "astuce": "Juste à côté, le pont ferroviaire d'Otto Wagner, de la même époque.",
+      "priorite": 2,
+      "photos": [
+        "images/zollamtssteg.jpg"
+      ]
+    },
+    {
+      "id": "kleines-cafe",
+      "nom": "Kleines Café",
+      "sousTitre": "La scène de la diseuse de bonne aventure",
+      "categories": [
+        "film",
+        "cafes"
+      ],
+      "type": "cafe",
+      "zone": "centre",
+      "lat": 48.2061,
+      "lng": 16.3743,
+      "duree": 40,
+      "prix": "Café environ 4–6 € (à vérifier), espèces uniquement",
+      "budget": 8,
+      "acces": "U1/U3 Stephansplatz (Franziskanerplatz 3)",
+      "horaires": {
+        "29": "10:00-22:00",
+        "30": "10:00-22:00",
+        "31": "10:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Horaires non confirmés pour ces dates.",
+      "reservation": null,
+      "description": "Un minuscule café sur la ravissante place des Franciscains. Céline et Jesse s'y assoient en terrasse quand une diseuse de bonne aventure leur lit les lignes de la main.",
+      "film": "Il appartient toujours au même propriétaire qu'au moment du tournage, en 1994.",
+      "astuce": "Prévoyez des espèces : la carte bancaire n'y est pas acceptée.",
+      "priorite": 2,
+      "photos": [
+        "images/kleines-cafe.jpg"
+      ]
+    },
+    {
+      "id": "maria-am-gestade",
+      "nom": "Église Maria am Gestade",
+      "sousTitre": "Les marches vers l'église gothique",
+      "categories": [
+        "film",
+        "balades"
+      ],
+      "type": "balade",
+      "zone": "centre",
+      "lat": 48.2128,
+      "lng": 16.3702,
+      "duree": 25,
+      "prix": "Gratuit",
+      "budget": 0,
+      "acces": "U1/U4 Schwedenplatz ou U2/U3 Schottentor",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "On voit les marches et la façade à toute heure. L'intérieur ferme pendant les offices (à vérifier).",
+      "reservation": null,
+      "description": "L'une des plus vieilles églises de Vienne, avec un clocher en dentelle de pierre. Céline et Jesse grimpent l'escalier qui y mène.",
+      "film": "Les scènes à l'intérieur de l'église ont été tournées ailleurs : seul l'escalier vient d'ici.",
+      "astuce": "Levez les yeux vers le clocher ajouré, unique à Vienne.",
+      "priorite": 1,
+      "photos": [
+        "images/maria-am-gestade.jpg"
+      ]
+    },
+    {
+      "id": "spittelberg",
+      "nom": "Ruelles du Spittelberg",
+      "sousTitre": "La danseuse et la conversation dans la ruelle",
+      "categories": [
+        "film",
+        "balades"
+      ],
+      "type": "balade",
+      "zone": "ouest",
+      "lat": 48.2023,
+      "lng": 16.3537,
+      "duree": 40,
+      "prix": "Gratuit",
+      "budget": 0,
+      "acces": "U2/U3 Volkstheater, puis 5 min à pied",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Quartier en accès libre.",
+      "reservation": null,
+      "description": "Un petit quartier de ruelles pavées et de maisons Biedermeier, plein de bars et de restaurants. Le couple y croise une danseuse et s'y arrête pour discuter.",
+      "film": "Tout près, au disquaire Teuchtler « Alt & Neu » (Windmühlgasse 10), ils écoutent un disque dans la cabine d'écoute, sans oser se regarder.",
+      "astuce": "Le disquaire Teuchtler est à 10 min à pied : vérifiez qu'il est ouvert entre les fêtes.",
+      "priorite": 2,
+      "photos": [
+        "images/spittelberg.jpg"
+      ]
+    },
+    {
+      "id": "albertina-terrasse",
+      "nom": "Terrasse de l'Albertina",
+      "sousTitre": "La dernière scène, au petit matin",
+      "categories": [
+        "film",
+        "vues"
+      ],
+      "type": "balade",
+      "zone": "centre",
+      "lat": 48.2046,
+      "lng": 16.3683,
+      "duree": 15,
+      "prix": "Gratuit",
+      "budget": 0,
+      "acces": "U1/U2/U4 Karlsplatz (Oper)",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-17:00"
+      },
+      "horairesStatut": "verifie",
+      "horairesNote": "Terrasse et escaliers en accès libre.",
+      "reservation": null,
+      "description": "La grande terrasse au-dessus de la place, sous la statue équestre de l'archiduc Albrecht, avec vue sur l'Opéra. Céline et Jesse y parlent accoudés à la balustrade, et l'aube les retrouve assis sur les marches.",
+      "film": "La balustrade de pierre et les marches sous la statue apparaissent dans les dernières minutes du film.",
+      "astuce": "À combiner avec le Café Sacher, juste en face.",
+      "priorite": 2,
+      "photos": [
+        "images/albertina.jpg"
+      ]
+    },
+    {
+      "id": "marche-belvedere",
+      "nom": "Marché de Noël du Belvédère",
+      "sousTitre": "Chalets et vin chaud devant le palais",
+      "categories": [
+        "marches",
+        "gastro"
+      ],
+      "type": "visite",
+      "zone": "est",
+      "lat": 48.1907,
+      "lng": 16.381,
+      "duree": 45,
+      "prix": "Entrée gratuite",
+      "budget": 8,
+      "acces": "Tram D, arrêt Schloss Belvedere",
+      "horaires": {
+        "29": "11:00-20:00",
+        "30": "11:00-20:00",
+        "31": "11:00-17:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "Ouvert jusqu'au 31 décembre pour l'édition 2026/27 (visitingvienna.com). Horaires non publiés : à vérifier.",
+      "reservation": null,
+      "description": "Un marché « impérial » au pied du Belvédère supérieur : chalets d'artisans, Punsch et douceurs, avec le palais baroque en toile de fond.",
+      "astuce": "Parfait juste avant ou après la visite du Baiser de Klimt, juste au-dessus.",
+      "priorite": 2,
+      "photos": [
+        "images/marche-noel.jpg",
+        "images/marche-belvedere.jpg"
+      ],
+      "resa": {
+        "niveau": "surplace",
+        "site": null,
+        "url": null,
+        "etapes": [
+          "Rien à réserver : on y va librement."
+        ],
+        "conseil": null
+      }
+    },
+    {
+      "id": "eislaufverein",
+      "nom": "Patinoire du Wiener Eislaufverein",
+      "sousTitre": "Patiner en plein air, au cœur de Vienne",
+      "categories": [
+        "marches",
+        "balades"
+      ],
+      "type": "visite",
+      "zone": "centre",
+      "lat": 48.2016,
+      "lng": 16.3793,
+      "duree": 75,
+      "prix": "Adulte environ 11–12 €, location de patins environ 9 € (tarifs 2025/26, à vérifier)",
+      "budget": 20,
+      "acces": "U4 Stadtpark ou tram D/71 Schwarzenbergplatz",
+      "horaires": {
+        "29": "09:00-20:00",
+        "30": "09:00-20:00",
+        "31": "09:00-16:00"
+      },
+      "horairesStatut": "aVerifier",
+      "horairesNote": "La saison 2025/26 allait de novembre à mars, tous les jours 9h–20h (21h le vendredi), avec des horaires réduits le 24 et le 31 décembre. Dates 2026/27 à vérifier.",
+      "reservation": null,
+      "description": "L'une des plus grandes patinoires en plein air d'Europe, gérée par un club fondé en 1867, à côté du Konzerthaus. Les uns patinent, les autres regardent, un Punsch à la main.",
+      "astuce": "Location de patins sur place. Le soir, la piste illuminée est magnifique.",
+      "priorite": 2,
+      "photos": [
+        "images/eislaufverein.jpg"
+      ],
+      "resa": {
+        "niveau": "surplace",
+        "site": null,
+        "url": null,
+        "etapes": [
+          "Billet et location de patins à la caisse, sur place (Lothringerstraße 22, tél. +43 1 713 63 53 0)."
+        ],
+        "conseil": null
+      }
+    }
+  ]
+}

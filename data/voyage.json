@@ -1,0 +1,277 @@
+{
+  "vols": {
+    "aller": {
+      "date": "Lundi 28 décembre 2026",
+      "segments": [
+        {
+          "de": "Paris CDG",
+          "a": "Francfort FRA",
+          "depart": "11:35",
+          "arrivee": "12:55",
+          "vol": "Condor DE4303"
+        },
+        {
+          "de": "Francfort FRA",
+          "a": "Vienne VIE",
+          "depart": "14:20",
+          "arrivee": "15:40",
+          "vol": "Condor DE4364"
+        }
+      ]
+    },
+    "retour": {
+      "date": "Vendredi 1er janvier 2027",
+      "segments": [
+        {
+          "de": "Vienne VIE",
+          "a": "Francfort FRA",
+          "depart": "11:10",
+          "arrivee": "12:30",
+          "vol": "Condor DE4363"
+        },
+        {
+          "de": "Francfort FRA",
+          "a": "Paris CDG",
+          "depart": "14:15",
+          "arrivee": "15:35",
+          "vol": "Condor DE4304"
+        }
+      ]
+    }
+  },
+  "aeroport": {
+    "nom": "Aéroport de Vienne (VIE)",
+    "lat": 48.1103,
+    "lng": 16.5697
+  },
+  "alerteTravaux": "Travaux sur la ligne ferroviaire de l'aéroport du 7 septembre 2026 à fin octobre 2027 : le CAT circule en bus, et le S7 s'arrête à Wien St. Marx (source : ÖBB).",
+  "transferts": [
+    {
+      "id": "taxi",
+      "nom": "Taxi ou VTC, grand véhicule",
+      "recommande": true,
+      "duree": "≈ 25–35 min selon la circulation (estimation)",
+      "prix": "Vers l'aéroport : forfaits de 37 € (Taxi 31300, réservé par l'appli) ou 42 € (Taxi 40100), jusqu'à 4 personnes, selon wien.info. Depuis l'aéroport : prix à faire confirmer avant de monter (≈ 40–60 €, à vérifier). Uber et Bolt affichent le prix à l'avance.",
+      "pour": "Porte à porte, sans changement ni escalier. À quatre, le prix par personne devient très raisonnable.",
+      "contre": "Avec quatre valises, il faut un grand taxi : précisez-le en réservant (« Großraumtaxi »).",
+      "conseil": "Pour le retour du 1er janvier, réservez la veille à la réception un taxi pour 4 personnes avec bagages, départ 8h30."
+    },
+    {
+      "id": "railjet",
+      "nom": "Train Railjet ÖBB + taxi court",
+      "recommande": false,
+      "duree": "15 min de train jusqu'à Wien Hauptbahnhof, toutes les 30 min, puis ≈ 10 min de taxi",
+      "prix": "Billet de train ≈ 5,50 € (supplément aéroport + zone Vienne, tarif à vérifier sur oebb.at), puis taxi ≈ 10–15 € (à vérifier)",
+      "pour": "Rapide, pas cher, et non concerné par les travaux.",
+      "contre": "Il faut changer à la gare centrale avec les valises.",
+      "conseil": "Prenez un train RJ ou RJX indiquant « Wien Hbf »."
+    },
+    {
+      "id": "cat",
+      "nom": "City Airport Train (CAT), en bus pendant les travaux",
+      "recommande": false,
+      "duree": "Départ toutes les 12 à 15 min vers Wien Mitte (durée en bus à vérifier), puis métro U4 jusqu'à Pilgramgasse (≈ 10 min)",
+      "prix": "14,90 € l'aller (site officiel), + 3,20 € de ticket de métro",
+      "pour": "Bus confortable et fréquent.",
+      "contre": "Il faut changer à Wien Mitte et prendre le métro avec les valises.",
+      "conseil": "L'enregistrement des bagages en ville (City Check-in) est suspendu pendant les travaux."
+    },
+    {
+      "id": "s7",
+      "nom": "S-Bahn S7",
+      "recommande": false,
+      "duree": "Pendant les travaux, il s'arrête à Wien St. Marx, puis il faut prendre le tram 18 ou 71",
+      "prix": "≈ 5,50 € (à vérifier)",
+      "pour": "Le moins cher.",
+      "contre": "Plusieurs changements : déconseillé avec des valises cet hiver.",
+      "conseil": "À éviter pendant les travaux."
+    }
+  ],
+  "reservationsFixes": [
+    {
+      "id": "diner31",
+      "titre": "Le dîner du 31 décembre",
+      "photo": "images/hero2.jpg",
+      "jour": "31",
+      "niveau": "urgent",
+      "site": "Google Maps",
+      "url": "https://www.google.com/maps/search/Silvester+Men%C3%BC+Restaurant+Wien",
+      "etapes": [
+        "Choisissez une adresse dans la liste ci-dessous (les menus 2026 sortent en général en novembre).",
+        "Réservez une table pour 4 sur son site et demandez le menu du 31 et son prix.",
+        "Notez l'heure et l'adresse ici."
+      ],
+      "conseil": "C'est LA réservation la plus urgente : le 31 au soir, presque tout est complet des semaines à l'avance."
+    },
+    {
+      "id": "concert31",
+      "titre": "Le concert Strauss du 31 (soirée calme)",
+      "photo": "images/musikverein.jpg",
+      "jour": "31",
+      "niveau": "urgent",
+      "site": "musikverein.at",
+      "url": "https://www.musikverein.at",
+      "seulement": "calme",
+      "etapes": [
+        "Ouvrez musikverein.at et cherchez le concert du 31 décembre à 15h (Wiener Ring-Ensemble).",
+        "Choisissez vos places et payez.",
+        "Gardez le billet sur le téléphone."
+      ],
+      "conseil": "Le concert de la Philharmonie, le soir, se gagne par tirage au sort : il n'est pas accessible à la dernière minute."
+    },
+    {
+      "id": "transports",
+      "titre": "Billets de métro et tram",
+      "photo": "images/ring.jpg",
+      "jour": "29",
+      "niveau": "surplace",
+      "site": "wienmobil.at",
+      "url": "https://www.wienmobil.at",
+      "etapes": [
+        "Installez l'appli WienMobil (Wiener Linien).",
+        "Chaque matin, achetez un billet « 24 Stunden WIEN » pour chacun des 4 voyageurs : 9,70 € par personne en version numérique.",
+        "Le billet est à votre nom : gardez une pièce d'identité sur vous."
+      ],
+      "conseil": "On peut aussi acheter des billets papier aux distributeurs des stations de métro."
+    },
+    {
+      "id": "concert-hofburg",
+      "titre": "Option : concert de la Saint-Sylvestre à la Hofburg",
+      "photo": "images/hofburg-festsaal.jpg",
+      "jour": "31",
+      "niveau": "facultatif",
+      "site": "hofburgorchester.at",
+      "url": "https://www.hofburgorchester.at/events/silvester-konzert-2026/",
+      "etapes": [
+        "Ouvrez la page du concert du 31/12/2026 (20h30–22h) sur le site officiel de l'orchestre.",
+        "Choisissez la catégorie (B 90 €, A 110 €, VIP 140 €) et 4 places : les sièges ne sont pas numérotés, le personnel vous place.",
+        "Annulation remboursée jusqu'à une semaine avant (par écrit)."
+      ],
+      "conseil": "Avec la soirée « fête » : dînez vers 18h, concert à 20h30, puis le parcours de fête jusqu'à minuit. Avec la soirée calme : il remplace le concert de l'après-midi."
+    }
+  ],
+  "voyageurs": {
+    "nombre": 4,
+    "famille": "Ropars",
+    "dossier": "VIE-2612"
+  },
+  "transfertArrivee": {
+    "reserve": true,
+    "titre": "Aéroport → hôtel : déjà réservé",
+    "texte": "Votre transfert depuis l'aéroport est réservé. À l'arrivée, il n'y a qu'à suivre les indications de la confirmation.",
+    "conseil": "Gardez la confirmation à portée de main (nom de la société, numéro de téléphone, point de rendez-vous) et prévenez en cas de retard du vol."
+  },
+  "transfertRetour": {
+    "reserve": true,
+    "titre": "Hôtel → aéroport : déjà réservé",
+    "texte": "Votre transfert retour est réservé pour le vendredi 1er janvier. Le départ de l'hôtel est prévu vers 8h30 pour le vol de 11h10.",
+    "conseil": "La veille au soir, vérifiez l'heure de prise en charge indiquée sur la confirmation et réglez la note de l'hôtel pour partir sereinement."
+  },
+  "restaurants31": [
+    {
+      "id": "rathauskeller",
+      "nom": "Wiener Rathauskeller",
+      "mode": "fete",
+      "quartier": "Centre · sous l'Hôtel de Ville",
+      "adresse": "Rathausplatz 1, 1010 Wien",
+      "lat": 48.2107,
+      "lng": 16.3572,
+      "description": "Menu viennois traditionnel en 3 plats, dans les caves voûtées de l'Hôtel de Ville, juste à côté de la grande scène du parcours de fête.",
+      "prix": "98 € par personne (menu 2024)",
+      "url": "https://www.wiener-rathauskeller.at",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "vienna1st",
+      "nom": "Vienna 1st (Hackl Gastro)",
+      "mode": "fete",
+      "quartier": "Centre · près de la Ruprechtskirche",
+      "adresse": "Judengasse 8, 1010 Wien",
+      "lat": 48.2116,
+      "lng": 16.3742,
+      "description": "Menu de gala en 6 plats, viande ou poisson, à partir de 18h, dans les ruelles du vieux centre.",
+      "prix": "89 € (viande) ou 99 € (poisson) par personne (menu 2025)",
+      "url": "https://hackl-gastro.at/silvester-dinner/",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "motto",
+      "nom": "Motto am Fluss",
+      "mode": "fete",
+      "quartier": "Centre · au bord du canal du Danube",
+      "adresse": "Franz-Josefs-Kai 2, 1010 Wien",
+      "lat": 48.2117,
+      "lng": 16.378,
+      "description": "Menu en 3 plats dès 17h, ou en 4 plats avec apéritif dès 19h, puis fête à partir de 22h.",
+      "prix": "130 € (3 plats) ou 225 € (4 plats) par personne (2025)",
+      "url": "https://www.mottoamfluss.at",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "meissl",
+      "nom": "Meissl & Schadn",
+      "mode": "fete",
+      "quartier": "Centre · sur le Ring",
+      "adresse": "Schubertring 10–12, 1010 Wien",
+      "lat": 48.2027,
+      "lng": 16.3753,
+      "description": "La brasserie élégante célèbre pour son schnitzel : deux menus de fête à partir de 17h.",
+      "prix": "125 € ou 210 € par personne (2024)",
+      "url": "https://meisslundschadn.at",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "palmenhaus",
+      "nom": "Palmenhaus",
+      "mode": "fete",
+      "quartier": "Centre · Burggarten, derrière la Hofburg",
+      "adresse": "Burggarten 1, 1010 Wien",
+      "lat": 48.2049,
+      "lng": 16.3664,
+      "description": "Dîner de gala sous la grande serre Art nouveau, champagne compris, et valse sur la terrasse à minuit.",
+      "prix": "250 € par personne (2025)",
+      "url": "https://www.palmenhaus.at",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "thell",
+      "nom": "Thell",
+      "mode": "calme",
+      "quartier": "À 2 minutes à pied de l'hôtel",
+      "adresse": "Schönbrunner Straße 30, 1050 Wien",
+      "lat": 48.1937,
+      "lng": 16.3598,
+      "description": "Dîner en 6 plats dès 17h avec les boissons comprises, puis soirée à partir de 22h pour ceux qui veulent prolonger.",
+      "prix": "220 € le dîner, 480 € la soirée complète, par personne (2025)",
+      "url": "https://thell.restaurant",
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    },
+    {
+      "id": "wienerwirtschaft",
+      "nom": "Die Wiener Wirtschaft (Hotel Schick)",
+      "mode": "calme",
+      "quartier": "Wieden · environ 12 min à pied de l'hôtel",
+      "adresse": "Wiedner Hauptstraße 27–29, 1040 Wien",
+      "lat": 48.1953,
+      "lng": 16.369,
+      "description": "Cuisine viennoise classique, menus de 2, 3 ou 4 plats de 18h à 23h : la bonne adresse au juste prix.",
+      "prix": "49 €, 59 € ou 69 € par personne (2024)",
+      "url": null,
+      "note": "Menu 2026 pas encore publié : prix de l'an dernier, à reconfirmer."
+    }
+  ],
+  "concertHofburg": {
+    "titre": "Concert de la Saint-Sylvestre à la Hofburg",
+    "quand": "Jeudi 31 décembre 2026, 20h30–22h",
+    "lieu": "Hofburg, Festsaal (Heldenplatz)",
+    "programme": "Valses et polkas de Strauss, Suppé, airs d'opérette de Lehár et Kálmán, et bien sûr Le Beau Danube bleu.",
+    "prix": "VIP 140 €, catégorie A 110 €, catégorie B 90 € par personne (site officiel)",
+    "url": "https://www.hofburgorchester.at/events/silvester-konzert-2026/",
+    "photo": "images/hofburg-festsaal.jpg"
+  },
+  "synchro": {
+    "url": "https://vienne-ropars-default-rtdb.europe-west1.firebasedatabase.app",
+    "famille": "ropars-e7faeedf",
+    "_aide": "Collez dans url l'adresse de votre base Firebase Realtime Database (ex. https://vienne-ropars-default-rtdb.europe-west1.firebasedatabase.app). Laisser vide = pas de synchronisation."
+  }
+}

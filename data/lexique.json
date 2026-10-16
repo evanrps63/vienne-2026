@@ -1,0 +1,47 @@
+{
+  "_lisezMoi": "Petit lexique. de = phrase en allemand (lue par la voix du téléphone), pron = prononciation à la française, fr = traduction.",
+  "groupes": [
+    {
+      "titre": "Politesse",
+      "mots": [
+        { "de": "Grüß Gott!", "pron": "grus gott", "fr": "Bonjour (la formule autrichienne)" },
+        { "de": "Servus!", "pron": "zèr-vouss", "fr": "Salut ! / Au revoir ! (plus familier)" },
+        { "de": "Bitte", "pron": "bi-teu", "fr": "S'il vous plaît / Je vous en prie" },
+        { "de": "Danke schön!", "pron": "dan-keu cheunn", "fr": "Merci beaucoup !" },
+        { "de": "Entschuldigung", "pron": "ènt-choul-di-goung", "fr": "Excusez-moi / Pardon" },
+        { "de": "Auf Wiedersehen!", "pron": "aouf vi-deur-zé-eunn", "fr": "Au revoir !" }
+      ]
+    },
+    {
+      "titre": "Au café et au restaurant",
+      "mots": [
+        { "de": "Einen Tisch für vier, bitte.", "pron": "aï-neunn tich fur fir, bi-teu", "fr": "Une table pour quatre, s'il vous plaît." },
+        { "de": "Eine Melange, bitte.", "pron": "aï-neu mé-lanj, bi-teu", "fr": "Un café Melange, s'il vous plaît." },
+        { "de": "Ich hätte gern ein Stück Sachertorte.", "pron": "ich hè-teu guèrn aïn chtuk za-heur-tor-teu", "fr": "Je voudrais une part de Sachertorte." },
+        { "de": "Ein Glas Wasser, bitte.", "pron": "aïn glass vas-seur, bi-teu", "fr": "Un verre d'eau, s'il vous plaît." },
+        { "de": "Es war sehr gut!", "pron": "èss var zèr gout", "fr": "C'était très bon !" },
+        { "de": "Zahlen, bitte!", "pron": "tsa-leunn, bi-teu", "fr": "L'addition, s'il vous plaît !" },
+        { "de": "Stimmt so.", "pron": "chtimt zo", "fr": "Gardez la monnaie (pour le pourboire)." }
+      ]
+    },
+    {
+      "titre": "Se débrouiller",
+      "mots": [
+        { "de": "Sprechen Sie Französisch?", "pron": "chpré-heunn zi fran-tseu-zich", "fr": "Parlez-vous français ?" },
+        { "de": "Wo ist die Toilette?", "pron": "vo ist di toï-lè-teu", "fr": "Où sont les toilettes ?" },
+        { "de": "Wie viel kostet das?", "pron": "vi fil kos-teut dass", "fr": "Combien ça coûte ?" },
+        { "de": "Zum Hotel, bitte. Schönbrunner Straße einundvierzig.", "pron": "tsoum ho-tèl, bi-teu. cheunn-brou-neur chtra-sseu aïn-ount-fir-tsich", "fr": "À l'hôtel, s'il vous plaît. 41, Schönbrunner Straße (à dire au taxi)." },
+        { "de": "Ich verstehe nicht.", "pron": "ich fèr-chté-eu nicht", "fr": "Je ne comprends pas." }
+      ]
+    },
+    {
+      "titre": "Pour les fêtes",
+      "mots": [
+        { "de": "Ein Glühwein, bitte.", "pron": "aïn glu-vaïn, bi-teu", "fr": "Un vin chaud, s'il vous plaît." },
+        { "de": "Prost!", "pron": "prost", "fr": "Santé !" },
+        { "de": "Guten Rutsch!", "pron": "gou-teunn routch", "fr": "Bon passage à la nouvelle année ! (avant minuit)" },
+        { "de": "Prosit Neujahr!", "pron": "pro-zit noï-yar", "fr": "Bonne année ! (après minuit)" }
+      ]
+    }
+  ]
+}
